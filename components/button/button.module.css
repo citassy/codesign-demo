@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    border-radius: 12px;
+
+}
+
+.filled{
+    background: var(--bg-primary-default);
+    color: var(--text-contrast);
+    border: none;
+}
+
+.filled:hover{
+    background-color: var(--bg-primary-interactive);
+}
+
+.outlined{
+    border: 1px solid var(--border-primary-default);
+    background-color: inherit;
+    color: var(--text-primary-default);
+}
+
+.outlined:hover{
+    color: var(--text-primary-interactive);
+    border-color: var(--border-primary-interactive);
+    background-color: var(--bg-primary-light);
+}

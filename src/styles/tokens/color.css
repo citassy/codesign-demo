@@ -1,0 +1,24 @@
+:root{
+    --primary-light: #FFE9C7;
+    --primary-medium: #EB4100;
+    --primary-dark: #C13500;
+
+    --neutral-light: #FFFFFF;
+    --neutral-medium: #414141;
+    --neutral-dark: #000000;
+
+    --text-default: var(--neutral-dark);
+    --text-hint: var(--neutral-medium);
+    --text-contrast: var(--neutral-light);
+    --text-default: var(--neutral-light);
+    --text-primary-default: var(--primary-medium);
+    --text-primary-interactive: var(--primary-dark);
+
+    --bg-primary-light: var(--primary-light);
+    --bg-primary-default: var(--primary-medium);
+    --bg-primary-interactive: var(--primary-dark);
+
+    --border-primary-default: var(--primary-medium);
+    --border-primary-interactive: var(--primary-dark);
+
+}
